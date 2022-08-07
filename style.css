@@ -1,0 +1,533 @@
+.main{
+    background-size: cover;
+    height: 1000px;
+    padding-top: 6px;
+    padding-left: 0px;
+}
+.navbar{
+    background-color:white;
+    height: 50px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.epi
+{
+    height: 60px;
+}
+.main-head{
+    background-image: url("/background\ epegion.png");
+    height: 600px;
+    position:relative;
+
+    /* background-repeat: no-repeat; */
+}
+.half-pic{
+    position:absolute;
+    padding-left: 819px;
+    width: 700px;
+}
+.second-half{
+    position:absolute;
+    padding-top: 430px;
+    width: 700px;
+}
+.home{
+    padding-top: 10px;
+    position: absolute;
+    width: 57px;
+    height: 24px;
+    left: 800px;
+    top: 0px;
+
+    font-family: 'Actay';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: right;
+    color:black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home:hover{
+    font-size: large;
+    cursor: pointer;
+    color:red;
+    
+}
+.about{
+    padding-top: 10px;
+    position: absolute;
+width: 98px;
+height: 24px;
+left: 890px;
+top: 0px;
+
+font-family: 'Actay';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: right;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+color: black;
+}
+.about:hover{
+    font-size: large;
+    cursor: pointer;
+    color:red;
+    
+}
+.button{
+    left: 1190px;
+    color: white;
+    height: 35px;
+    background-color: red;
+    width: 120px;
+    position: absolute;
+    border-radius: 7px;
+    border: 3px red solid;
+}
+.button:hover{
+    cursor: pointer;
+    color: aqua;
+    font-size: medium;
+}
+.login{
+    padding-top: 10px;
+position: absolute;
+width: 146px;
+height: 24px;
+left: 1020px;
+top: 0px;
+font-family: 'Actay';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+text-align: right;
+color: black;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.login:hover{
+    font-size: large;
+    cursor: pointer;
+    color:red;
+    
+}
+
+.notification{
+    position: absolute;
+    left: 1330px;
+}
+.github{
+    position: absolute;
+    left: 1470px;
+}
+.notification:hover{
+    cursor: pointer;
+    background-color: #FFF508;
+    border-radius: 50%;
+}
+.github:hover{
+    cursor:pointer;
+    background-color: #FFF508;
+    border-radius: 50%;
+}
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+    top: 12.5px;
+    left: 1400px;
+	background-color:black;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: absolute;
+	height: 10px;
+	width: 31.5px;
+	transform: scale(1.5);
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 15px;
+	width: 15px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+
+
+.dark {
+	color: #f1c40f;
+    font-size: 10px;
+    
+}
+
+.light {
+	color: #f39c12;
+}
+.tagline{
+    position:absolute;
+    padding-top: 270px;
+    padding-left: 460px;
+}
+.tagline2{
+    position: absolute;
+    padding-top:310px;
+    padding-left: 460px;
+}
+.second-nav{
+    padding-bottom: 30px;
+}
+.consult{
+    position: absolute;
+    top: 700px;
+    left: 80px;
+}
+.text1{
+    position:absolute;
+    top: 708px;
+    left: 130px;
+}
+.text1:hover{
+    color:red;
+}
+.records{
+    position: absolute;
+    top: 700px;
+    left: 470px;
+}.text2{
+    position: absolute;
+    top: 708px;
+    left: 520px;
+}
+.text2:hover{
+    color:red;
+}
+.test{
+    position:absolute;
+    top: 700px;
+    left: 820px;
+}
+.text3{
+    position:absolute;
+    top: 705px;
+    left: 870px;
+}
+.text3:hover{
+    color:red;
+}
+.article{
+    position: absolute;
+    top: 700px;
+    left: 1120px;
+}
+.text4{
+    position:absolute;
+    top: 705px;
+    left: 1160px;
+}
+.text4:hover{
+    color:red;
+}
+
+/* reviews */
+.reviews{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    margin: 5% 2%;
+    background-size: cover;
+    height: 620px;
+    width:1450px;
+    border-radius: 10px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10%;
+    color: hsl(215, 51%, 70%);
+  }
+  h3 {
+    display: inline;
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 30px;
+  }
+  h2 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin: 10%
+  }
+  h2:hover {
+    color: hsl(178, 100%, 50%);
+  }
+  hr {
+    width: 80%;
+    color: hsl(215, 32%, 27%);
+    border-top: none;
+    size: 2px;
+    border-color: hsl(215, 32%, 27%);
+    padding-top: 5%;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 10%;
+  }
+  .cardsArrangement{
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: auto auto auto;
+    row-gap: 5%;
+    column-gap: 1%;
+  }
+  .card {
+    margin: 0.001fr;
+    width: 100%;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding-bottom: 5%;
+    box-shadow: 0px 20px 25px 15px rgba(0, 0, 0, 0.05),
+               0px 40px 30px 15px rgba(0, 0, 0, 0.1);
+  }
+  .card_img{
+    float: right;
+    height: 75px;
+    border-radius: 50%;
+    margin: 10%;
+    border-color: rgb(23, 96, 120);
+    border-style: groove;
+  }
+  .card_img:hover{
+    border-color: azure;
+    border-style: groove;
+  }
+  .container{
+    position:unset;
+    overflow: hidden;
+    background-color: black;
+    height: 450px;
+    width: 1519px;
+    margin-top: 125px;
+    margin-left: -30px;
+    display: grid;
+}
+.item{
+    position:absolute;
+    height: 0px;
+    background-color:rgb(0, 0, 0);
+   /* height: height*1;
+    width:300px ;*/
+    font-style: normal;
+    color: rgb(244, 246, 247);
+}
+.auditor{
+background-color: white;
+border-radius: 5px;
+position: relative;
+width: 218px;
+height: 107px;
+left: 171px;
+top: 55px;
+}
+
+.para{
+text-align: left;
+position: relative;
+width: 364px;
+height: 247px;
+left: 140px;
+top: 90px;
+
+font-family: 'Actay';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+}
+
+.head{
+    font-style: oblique;
+    font: optional;
+}
+
+.resources{
+    position: relative;
+width: 124px;
+height: 43px;
+left: 531px;
+top: 104px;
+
+font-family: 'Humane';
+font-style: normal;
+font-weight: 500;
+font-size: 43px;
+line-height: 43px;
+/* identical to box height */
+
+letter-spacing: 0.145em;
+
+color: #FFFFFF;
+}
+.res{
+    position: relative;
+width: 58px;
+height: 20px;
+left: 531px;
+top: 159px;
+
+font-family: 'Actay';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+}
+.help{
+    position: relative;
+    width: 220px;
+    height: 43px;
+    left: 747px;
+    top: 104px;
+    
+    font-family: 'Humane';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 43px;
+    /* identical to box height */
+    
+    letter-spacing: 0.145em;
+    
+    color: #FFFFFF;
+}
+.sp{
+    position: relative;
+width: 89px;
+height: 20px;
+left: 747px;
+top: 159px;
+
+font-family: 'Actay';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+.foll{
+    position:relative;
+width: 121px;
+height: 43px;
+left: 1049px;
+top: 104px;
+
+font-family: 'Humane';
+font-style: normal;
+font-weight: 500;
+font-size: 43px;
+line-height: 43px;
+/* identical to box height */
+
+letter-spacing: 0.145em;
+
+color: #FFFFFF;
+
+}
+.follow{
+    position: relative;
+width: 61px;
+height: 20px;
+left: 1049px;
+top: 159px;
+
+font-family: 'Actay';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+.legal{
+
+    position: relative;
+    width: 61px;
+    height: 43px;
+    left: 1292px;
+    top: 104px;
+    
+    font-family: 'Humane';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 43px;
+    /* identical to box height */
+    
+    letter-spacing: 0.145em;
+    
+    color: #FFFFFF;
+}
+.lg{
+    position: relative;
+width: 120px;
+height: 20px;
+left: 1292px;
+top: 159px;
+
+font-family: 'Actay';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+.hr{
+    color: rgb(255, 255, 255);
+}
+.discord:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.github1:hover{
+    color: yellow;
+    cursor: pointer;
+}
